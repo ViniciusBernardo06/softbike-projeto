@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOFTBIKE - Tabela</title>
+
+    <!-- Link do Bootstrap utilizado em sala de aula -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Arquivo CSS próprio do projeto -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Âncora para o botão de voltar ao início -->
+    <a id="inicio"></a>
+
+    <!-- Início do menu expansível -->
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <h5 class="text-white h4">SOFTBIKE - Projeto de Desenvolvimento Web</h5>
+            <span class="text-muted">Curso: ADS | Disciplina: Desenvolvimento Web | Tema: Loja de bicicletas</span>
+        </div>
+    </div>
+
+    <!-- Navbar principal do site -->
+    <nav class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">SOFTBIKE</a>
+
+            <!-- Botão do menu recolhível -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Menu secundário com as páginas do projeto -->
+    <div class="bg-light border-bottom py-2">
+        <div class="container text-center">
+            <a class="menu-link" href="index.html">Home</a>
+            <a class="menu-link" href="empresa.html">Empresa</a>
+            <a class="menu-link" href="produtos.html">Produtos</a>
+            <a class="menu-link" href="texto.html">Textos</a>
+            <a class="menu-link" href="listas.html">Listas</a>
+            <a class="menu-link" href="tabela.html">Tabela</a>
+            <a class="menu-link" href="links.html">Links</a>
+            <a class="menu-link" href="wireframe.html">Documentos</a>
+        </div>
+    </div>
+
+    <!-- Página da tabela com 5 colunas por 15 linhas e mesclagem -->
+    <section class="container py-5">
+        <div class="card shadow-sm">
+            <div class="card-body p-4">
+                <h1 class="display-6 text-center mb-3">Tabela de estoque da SOFTBIKE</h1>
+                <p class="lead text-muted text-center">Tabela com mesclagem de colunas e linhas, cores diferentes e organização em 5 colunas.</p>
+
+                <div class="table-responsive">
+                    <table class="table table-bordered text-center align-middle">
+                        <tr class="table-primary">
+                            <th>Código</th>
+                            <th>Categoria</th>
+                            <th>Produto</th>
+                            <th>Quantidade</th>
+                            <th>Observação</th>
+                        </tr>
+                        <tr class="table-warning">
+                            <td rowspan="2">001</td>
+                            <td rowspan="2">Bicicletas</td>
+                            <td>Mountain Bike Aro 29</td>
+                            <td>12</td>
+                            <td rowspan="2">Linha esportiva</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>Bicicleta Urbana</td>
+                            <td>8</td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>002</td>
+                            <td>Peças</td>
+                            <td>Pneu aro 29</td>
+                            <td>30</td>
+                            <td>Alta procura</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>003</td>
+                            <td>Peças</td>
+                            <td>Câmara de ar</td>
+                            <td>45</td>
+                            <td>Reposição rápida</td>
+                        </tr>
+                        <tr class="table-danger">
+                            <td>004</td>
+                            <td>Acessórios</td>
+                            <td>Capacete</td>
+                            <td>20</td>
+                            <td>Segurança</td>
+                        </tr>
+                        <tr>
+                            <td>005</td>
+                            <td>Acessórios</td>
+                            <td>Luva</td>
+                            <td>26</td>
+                            <td>Uso esportivo</td>
+                        </tr>
+                        <tr>
+                            <td>006</td>
+                            <td>Acessórios</td>
+                            <td>Garrafa</td>
+                            <td>40</td>
+                            <td>Hidratação</td>
+                        </tr>
+                        <tr>
+                            <td>007</td>
+                            <td>Peças</td>
+                            <td>Freio a disco</td>
+                            <td>18</td>
+                            <td>Modelo premium</td>
+                        </tr>
+                        <tr>
+                            <td>008</td>
+                            <td>Peças</td>
+                            <td>Corrente</td>
+                            <td>27</td>
+                            <td>Uso geral</td>
+                        </tr>
+                        <tr>
+                            <td>009</td>
+                            <td>Acessórios</td>
+                            <td>Lanterna</td>
+                            <td>22</td>
+                            <td>Passeio noturno</td>
+                        </tr>
+                        <tr>
+                            <td>010</td>
+                            <td>Acessórios</td>
+                            <td>Cadeado</td>
+                            <td>16</td>
+                            <td>Proteção</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="table-secondary"><b>Setor especial</b></td>
+                            <td>Kit revisão</td>
+                            <td>10</td>
+                            <td>Uso da oficina</td>
+                        </tr>
+                        <tr>
+                            <td>011</td>
+                            <td>Oficina</td>
+                            <td>Lubrificante</td>
+                            <td>14</td>
+                            <td>Manutenção</td>
+                        </tr>
+                        <tr>
+                            <td>012</td>
+                            <td>Oficina</td>
+                            <td>Ferramentas</td>
+                            <td>9</td>
+                            <td>Equipe técnica</td>
+                        </tr>
+                        <tr class="table-light">
+                            <td colspan="3"><b>Total de itens cadastrados</b></td>
+                            <td colspan="2"><b>297 unidades</b></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Início do rodapé -->
+    <footer class="py-5 bg-white border-top mt-5">
+        <div class="container">
+            <div class="d-flex justify-content-between flex-wrap gap-3">
+                <p class="text-muted m-0">Curso: Análise e Desenvolvimento de Sistemas | Disciplina: Desenvolvimento Web</p>
+                <a href="#inicio" class="btn btn-outline-primary btn-sm">Voltar ao início</a>
+            </div>
+            <p class="text-muted mt-3 mb-0">Integrantes: Sabrina, Vinícius Vieira, Gabriel Pereira e Enzo</p>
+        </div>
+    </footer>
+
+    <!-- Scripts do Bootstrap para funcionamento do menu -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+/*
+    Arquivo CSS principal do projeto SOFTBIKE
+    Observação: o Bootstrap já faz grande parte da estilização.
+    Aqui foram colocados apenas alguns ajustes complementares.
+*/
+
+body {
+    background-color: #f1f1f1;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #1f1f1f;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.menu-link:hover {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+.hero-softbike {
+    background-color: #ececec;
+    min-height: 360px;
+}
+
+.hero-box {
+    max-width: 520px;
+}
+
+.hero-box p {
+    text-align: center;
+}
+
+.card img {
+    border-radius: 5px 5px 0px 0px !important;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    
+}
+
+.texto-link {
+    text-decoration: none;
+}
+
+.wire-box {
+    border: 2px solid #6c757d;
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.wire-item {
+    border: 1px solid #adb5bd;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+}
+
+table td, table th {
+    vertical-align: middle;
+}
+
+.formato-box {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+}

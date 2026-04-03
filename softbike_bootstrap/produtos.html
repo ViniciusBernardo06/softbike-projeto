@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOFTBIKE - Produtos</title>
+
+    <!-- Link do Bootstrap utilizado em sala de aula -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Arquivo CSS próprio do projeto -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Âncora para o botão de voltar ao início -->
+    <a id="inicio"></a>
+
+    <!-- Início do menu expansível -->
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <h5 class="text-white h4">SOFTBIKE - Projeto de Desenvolvimento Web</h5>
+            <span class="text-muted">Curso: ADS | Disciplina: Desenvolvimento Web | Tema: Loja de bicicletas</span>
+        </div>
+    </div>
+
+    <!-- Navbar principal do site -->
+    <nav class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">SOFTBIKE</a>
+
+            <!-- Botão do menu recolhível -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Menu secundário com as páginas do projeto -->
+    <div class="bg-light border-bottom py-2">
+        <div class="container text-center">
+            <a class="menu-link" href="index.html">Home</a>
+            <a class="menu-link" href="empresa.html">Empresa</a>
+            <a class="menu-link" href="produtos.html">Produtos</a>
+            <a class="menu-link" href="texto.html">Textos</a>
+            <a class="menu-link" href="listas.html">Listas</a>
+            <a class="menu-link" href="tabela.html">Tabela</a>
+            <a class="menu-link" href="links.html">Links</a>
+            <a class="menu-link" href="wireframe.html">Documentos</a>
+        </div>
+    </div>
+
+    <!-- Página com 25 fotografias organizadas em 3 colunas -->
+    <section class="container py-5">
+        <h1 class="display-6 text-center mb-3">Galeria de produtos</h1>
+        <p class="lead text-muted text-center mb-5">Abaixo estão 25 imagens organizadas em grade para representar a
+            vitrine da loja.</p>
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://cdn.dooca.store/4/products/oebhzfbk90i139ewn4ovmzkepiqjpdgktwor.jpg?v=1765473074000&webp=0"
+                        class="card-img-top gallery-image" alt="Produto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 1</h5>
+                        <p class="card-text">BICICLETA BMX ARO 20 PRO-X SERIE 5 AÇO PINTURA CROMO DOURADO</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://www.brandbikes.com.br/cdn/shop/files/e932f4a3f6815af53e8211e8b5b48c2e.jpg?v=1723430515"
+                        class="card-img-top gallery-image" alt="Produto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 2</h5>
+                        <p class="card-text">Bicicleta Bike Aro 29 Alumínio 24 Velocidades Shimano Suspensão Freio A
+                            Disco</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://imgs.casasbahia.com.br/1564875914/1xg.jpg?imwidth=500"
+                        class="card-img-top gallery-image" alt="Produto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 3</h5>
+                        <p class="card-text">Bicicleta Aro 29 24 Marchas Freios Disco E Suspensão - Verde Militar-preto
+                            - 15" Verde Militar-preto</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://wallbike.com.br/wp-content/uploads/2021/01/bikes-dia-15-2.png"
+                        class="card-img-top gallery-image" alt="Produto 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 4</h5>
+                        <p class="card-text">BICICLETA RETRÔ ARO 26</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://images.tcdn.com.br/img/img_prod/1182547/bicicleta_cargueira_vermelha_dream_bike_179_1_24ef6fb379c44ed3d874cf284d5bac27.jpg"
+                        class="card-img-top gallery-image" alt="Produto 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 5</h5>
+                        <p class="card-text">BICICLETA CARGUEIRA - VERMELHA</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://io.convertiez.com.br/m/lojasedmil/shop/products/images/892/medium/bicicleta-infantil-track-arco-iris-aro-12-com-rodas-de-apoio-e-cestinha-rosa_8174.jpg"
+                        class="card-img-top gallery-image" alt="Produto 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 6</h5>
+                        <p class="card-text">Bicicleta Infantil Track Arco Íris Aro-12 Com Rodas de Apoio e Cestinha -
+                            Rosa</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://static1.efacil.com.br/wcsstore//AuroraStorefrontAssetStore/PDP/colii/2221164-c.jpg"
+                        class="card-img-top gallery-image" alt="Produto 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 7</h5>
+                        <p class="card-text">Bicicleta Infantil Colli GPS20 - Aro 20, 21 Marchas, Tamanho Quadro 14, Aço
+                            Carbono, Dupla Suspensão, Amarelo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://prosportbike.fbitsstatic.net/img/p/bicicleta-infantil-unitoys-moto-cross-rosa-aro-16-72427/266957.jpg?w=800&h=800&v=no-change&qs=ignore"
+                        class="card-img-top gallery-image" alt="Produto 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 8</h5>
+                        <p class="card-text">BICICLETA INFANTIL UNITOYS MOTO CROSS ROSA ARO 16</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://images.tcdn.com.br/img/img_prod/576318/bicicleta_26_urbana_tropical_comum_samy_freio_v_brake_aro_aero_com_cestinha_11251_14_76ef88bcef63333a1706628d4b7c85bd.jpg"
+                        class="card-img-top gallery-image" alt="Produto 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 9</h5>
+                        <p class="card-text">Bicicleta 26 Urbana Tropical Comum Samy Freio V Brake Aro Aero com Cestinha
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://cdn.awsli.com.br/600x450/1869/1869795/produto/95493631/7846404389.jpg"
+                        class="card-img-top gallery-image" alt="Produto 10">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 10</h5>
+                        <p class="card-text">Bicicleta Verona Passeio 26 Aço Carbono Reforçada</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://bikealtovale.cdn.magazord.com.br/img/2024/01/produto/1273/bicicleta-aro-29-mtb-tn-21-verde-athor.png?ims=fit-in/600x600/filters:fill(white)"
+                        class="card-img-top gallery-image" alt="Produto 11">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 11</h5>
+                        <p class="card-text">Bicicleta Aro 29 MTB TN 21 Verde Athor</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://m.media-amazon.com/images/I/61jHcGXSxCL._AC_UF894,1000_QL80_.jpg"
+                        class="card-img-top gallery-image" alt="Produto 12">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 12</h5>
+                        <p class="card-text">Bicicleta Elétrica Confort FULL 800W 48V 15Ah Cor Preta</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://freeaction.cdn.magazord.com.br/img/2025/06/produto/979/16-bicicleta-aro-20-free-action-kiss-mtb-1v-v-brake.jpeg?ims=600x600"
+                        class="card-img-top gallery-image" alt="Produto 13">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 13</h5>
+                        <p class="card-text">Bicicleta Aro 20 Free Action Kiss MTB 1V V-Brake Lilás</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_888025-MLB81365957813_122024-O-bicicleta-grau-rebaixada-camaleo-lancamento-ddk.webp"
+                        class="card-img-top gallery-image" alt="Produto 14">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 14</h5>
+                        <p class="card-text">Bicicleta Grau Rebaixada Camaleão Lançamento Ddk</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://images.tcdn.com.br/img/img_prod/1182547/bicicleta_de_carga_long_tail_109_2_36668faaa7744c426cc5f0627e9c77a6.jpg"
+                        class="card-img-top gallery-image" alt="Produto 15">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 15</h5>
+                        <p class="card-text">BICICLETA DE CARGA LONG TAIL</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://groovebikes.com.br/wp-content/uploads/2019/11/BALANCE-VERMELHO.jpg"
+                        class="card-img-top gallery-image" alt="Produto 16">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 16</h5>
+                        <p class="card-text">Bicicleta Infantil Groove Balance</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://assets.specialized.com/i/specialized/97226-03_AETHOS-SW-AXS-SNDSTNMET-REDTNT-SILPRL_HERO-SQUARE?$scom-plp-product-image-square$&fmt=webp"
+                        class="card-img-top gallery-image" alt="Produto 17">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 17</h5>
+                        <p class="card-text">Bicicleta S-Works Aethos 2</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://imgs.extra.com.br/1564876038/1xg.jpg?imwidth=500"
+                        class="card-img-top gallery-image" alt="Produto 18">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 18</h5>
+                        <p class="card-text">Bicicleta Aro 29 21 Marchas Freios Disco C- Suspensão - Preto-azul E Rosa -
+                            15" Preto-azul E Rosa</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://cdn.deporvillage.com/cdn-cgi/image/h=949,w=759,dpr=2,f=auto,q=75,fit=contain,background=white/product-vertical/SCO-290289_001.jpg"
+                        class="card-img-top gallery-image" alt="Produto 19">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 19</h5>
+                        <p class="card-text">Bicicleta BTT Scott Contessa Spark 920 verde escuro</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://imgcentauro-a.akamaihd.net/1200x1200/M01HGG19A1.jpg"
+                        class="card-img-top gallery-image" alt="Produto 20">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 20</h5>
+                        <p class="card-text">Bicicleta GTS M1 I-Vtec Magnésio - Aro 29 - Freio a Disco Hidráulico - 27
+                            marchas</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://martinelloeletrodomesticos.fbitsstatic.net/img/p/bicicleta-colli-250-grau-21-marchas-aro-26-preto-fosco-vermelho-80586/267178.jpg?w=482&h=482&v=202506101041&qs=ignore"
+                        class="card-img-top gallery-image" alt="Produto 21">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 21</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://www.virtualbike.com.br/media/catalog/product/cache/707e5c87c6f2c8b52e27d02debab1ba4/a/r/artboard-13_1_1_1.webp"
+                        class="card-img-top gallery-image" alt="Produto 22">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 22</h5>
+                        <p class="card-text">Bicicleta de Grau GTS Predador Aro 26 Freeride 21v Shimano Pneu
+                            Colorido-Vermelho/Azul-13</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://thumbs.dreamstime.com/b/bicicleta-engra%C3%A7ada-na-rua-em-floren%C3%A7a-it%C3%A1lia-44494109.jpg"
+                        class="card-img-top gallery-image" alt="Produto 23">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 23</h5>
+                        <p class="card-text">Bicicleta Melancia Aro 0</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://assets.specialized.com/i/specialized/121859?$scom-pdp-gallery-image$&fmt=webp"
+                        class="card-img-top gallery-image" alt="Produto 24">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 24</h5>
+                        <p class="card-text">2015 Pitch Sport 650b</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <!-- Cada cartão representa um produto/foto da galeria -->
+                <div class="card shadow-sm h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6nww_Csw4eIjBiW9YxO34PVpCXxMp8NMMZw&s"
+                        class="card-img-top gallery-image" alt="Produto 25">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 25</h5>
+                        <p class="card-text">BICICLETA ARO 16 AÇO PRO-X FREEBOY AZUL</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Início do rodapé -->
+    <footer class="py-5 bg-white border-top mt-5">
+        <div class="container">
+            <div class="d-flex justify-content-between flex-wrap gap-3">
+                <p class="text-muted m-0">Curso: Análise e Desenvolvimento de Sistemas | Disciplina: Desenvolvimento Web
+                </p>
+                <a href="#inicio" class="btn btn-outline-primary btn-sm">Voltar ao início</a>
+            </div>
+            <p class="text-muted mt-3 mb-0">Integrantes: Sabrina, Vinícius Vieira, Gabriel Pereira e Enzo</p>
+        </div>
+    </footer>
+
+    <!-- Scripts do Bootstrap para funcionamento do menu -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

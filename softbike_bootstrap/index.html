@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOFTBIKE - Home</title>
+
+    <!-- Link do Bootstrap utilizado em sala de aula -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Arquivo CSS próprio do projeto -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Âncora para o botão de voltar ao início -->
+    <a id="inicio"></a>
+
+    <!-- Início do menu expansível -->
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <h5 class="text-white h4">SOFTBIKE - Projeto de Desenvolvimento Web</h5>
+            <span class="text-muted">Curso: ADS | Disciplina: Desenvolvimento Web | Tema: Loja de bicicletas</span>
+        </div>
+    </div>
+
+    <!-- Navbar principal do site -->
+    <nav class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">SOFTBIKE</a>
+
+            <!-- Botão do menu recolhível -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Menu secundário com as páginas do projeto -->
+    <div class="bg-light border-bottom py-2">
+        <div class="container text-center">
+            <a class="menu-link" href="index.html">Home</a>
+            <a class="menu-link" href="empresa.html">Empresa</a>
+            <a class="menu-link" href="produtos.html">Produtos</a>
+            <a class="menu-link" href="texto.html">Textos</a>
+            <a class="menu-link" href="listas.html">Listas</a>
+            <a class="menu-link" href="tabela.html">Tabela</a>
+            <a class="menu-link" href="links.html">Links</a>
+            <a class="menu-link" href="wireframe.html">Documentos</a>
+        </div>
+    </div>
+
+    <!-- Seção principal semelhante ao modelo feito em sala -->
+    <section class="hero-softbike d-flex align-items-center">
+        <div class="container">
+            <div class="mx-auto py-5 my-5 hero-box">
+                <!-- Título principal da home -->
+                <h1 class="display-5 text-center">SOFTBIKE</h1>
+
+                <!-- Texto de apresentação -->
+                <p class="lead text-muted">A SOFTBIKE é uma loja de bicicletas, peças e acessórios. O objetivo deste site é apresentar a empresa, divulgar produtos, organizar conteúdos exigidos no projeto e oferecer uma navegação simples, limpa e funcional.</p>
+            </div>
+
+            <!-- Botões de ação, seguindo a ideia da aula -->
+            <div class="d-flex justify-content-center">
+                <a href="produtos.html" class="btn btn-primary m-1">Ver produtos</a>
+                <a href="empresa.html" class="btn btn-secondary m-1">Conhecer empresa</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Espaço visual entre a apresentação e os cartões -->
+    <div class="p-3 mb-2 bg-light text-dark"></div>
+
+    <!-- Área de patrocinadores em formato de cartões -->
+    <section class="container mb-5">
+        <h2 class="section-title">Patrocinadores em destaque</h2>
+
+        <!-- Uso do grid do Bootstrap para deixar os cartões alinhados -->
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow-sm rounded h-100">
+                    <img src="imagens/patrocinador1.svg" class="card-img-top" alt="Patrocinador Pedal Forte">
+                    <div class="card-body">
+                        <h5 class="card-title">Pedal Forte</h5>
+                        <p class="card-text">Linha de capacetes, luvas e itens de segurança para ciclistas iniciantes e experientes.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="links.html" class="btn btn-outline-primary btn-sm">Preview</a>
+                            <small class="text-muted">Patrocínio 1</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow-sm rounded h-100">
+                    <img src="imagens/patrocinador2.svg" class="card-img-top" alt="Patrocinador Roda Max">
+                    <div class="card-body">
+                        <h5 class="card-title">Roda Max</h5>
+                        <p class="card-text">Empresa parceira especializada em rodas, pneus e câmaras para vários estilos de pedal.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="produtos.html" class="btn btn-outline-primary btn-sm">Preview</a>
+                            <small class="text-muted">Patrocínio 2</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow-sm rounded h-100">
+                    <img src="imagens/patrocinador3.svg" class="card-img-top" alt="Patrocinador Bike Tech">
+                    <div class="card-body">
+                        <h5 class="card-title">Bike Tech</h5>
+                        <p class="card-text">Assistência técnica, revisão preventiva e peças para melhorar desempenho e durabilidade.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="empresa.html" class="btn btn-outline-primary btn-sm">Preview</a>
+                            <small class="text-muted">Patrocínio 3</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow-sm rounded h-100">
+                    <img src="imagens/patrocinador4.svg" class="card-img-top" alt="Patrocinador Ciclo Vida">
+                    <div class="card-body">
+                        <h5 class="card-title">Ciclo Vida</h5>
+                        <p class="card-text">Acessórios, iluminação e equipamentos voltados para mobilidade urbana e lazer.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="texto.html" class="btn btn-outline-primary btn-sm">Preview</a>
+                            <small class="text-muted">Patrocínio 4</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Início do rodapé -->
+    <footer class="py-5 bg-white border-top mt-5">
+        <div class="container">
+            <div class="d-flex justify-content-between flex-wrap gap-3">
+                <p class="text-muted m-0">Curso: Análise e Desenvolvimento de Sistemas | Disciplina: Desenvolvimento Web</p>
+                <a href="#inicio" class="btn btn-outline-primary btn-sm">Voltar ao início</a>
+            </div>
+            <p class="text-muted mt-3 mb-0">Integrantes: Sabrina, Vinícius Vieira, Gabriel Pereira e Enzo</p>
+        </div>
+    </footer>
+
+    <!-- Scripts do Bootstrap para funcionamento do menu -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+</html>
