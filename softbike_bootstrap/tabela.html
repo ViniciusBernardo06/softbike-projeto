@@ -61,6 +61,7 @@
 
                 <div class="table-responsive">
                     <table class="table table-bordered text-center align-middle">
+                        <!-- Cabeçalho da tabela -->
                         <tr class="table-primary">
                             <th>Código</th>
                             <th>Categoria</th>
@@ -68,103 +69,136 @@
                             <th>Quantidade</th>
                             <th>Observação</th>
                         </tr>
+
+                        <!-- rowspan="3" nas colunas Código e Categoria (mesclagem de linha 1) -->
                         <tr class="table-warning">
-                            <td rowspan="2">001</td>
-                            <td rowspan="2">Bicicletas</td>
+                            <td rowspan="3">001</td>
+                            <td rowspan="3">Bicicletas</td>
                             <td>Mountain Bike Aro 29</td>
                             <td>12</td>
-                            <td rowspan="2">Linha esportiva</td>
+                            <td>Alto desempenho</td>
                         </tr>
                         <tr class="table-warning">
-                            <td>Bicicleta Urbana</td>
+                            <td>Bicicleta Urbana Aro 26</td>
                             <td>8</td>
+                            <td>Uso diário</td>
                         </tr>
+                        <tr class="table-warning">
+                            <td>Bicicleta Infantil Aro 16</td>
+                            <td>15</td>
+                            <td>Linha kids</td>
+                        </tr>
+
+                        <!-- rowspan="2" na coluna Categoria (mesclagem de linha 2) -->
                         <tr class="table-success">
                             <td>002</td>
-                            <td>Peças</td>
-                            <td>Pneu aro 29</td>
+                            <td rowspan="2">Pneus e Câmaras</td>
+                            <td>Pneu Aro 29</td>
                             <td>30</td>
                             <td>Alta procura</td>
                         </tr>
-                        <tr class="table-info">
+                        <tr class="table-success">
                             <td>003</td>
-                            <td>Peças</td>
-                            <td>Câmara de ar</td>
+                            <td>Câmara de Ar Aro 26</td>
                             <td>45</td>
                             <td>Reposição rápida</td>
                         </tr>
-                        <tr class="table-danger">
+
+                        <!-- rowspan="2" na coluna Observação (mesclagem de linha 3) -->
+                        <tr class="table-info">
                             <td>004</td>
-                            <td>Acessórios</td>
-                            <td>Capacete</td>
-                            <td>20</td>
                             <td>Segurança</td>
+                            <td>Capacete Adulto</td>
+                            <td>20</td>
+                            <td rowspan="2">Proteção pessoal</td>
                         </tr>
-                        <tr>
+                        <tr class="table-info">
                             <td>005</td>
-                            <td>Acessórios</td>
-                            <td>Luva</td>
+                            <td>Segurança</td>
+                            <td>Luva de Ciclismo</td>
                             <td>26</td>
-                            <td>Uso esportivo</td>
                         </tr>
-                        <tr>
+
+                        <!-- Linha normal -->
+                        <tr class="table-danger">
                             <td>006</td>
-                            <td>Acessórios</td>
-                            <td>Garrafa</td>
-                            <td>40</td>
-                            <td>Hidratação</td>
+                            <td>Iluminação</td>
+                            <td>Lanterna Dianteira LED</td>
+                            <td>22</td>
+                            <td>Passeio noturno</td>
                         </tr>
+
+                        <!-- rowspan="2" na coluna Categoria (mesclagem de linha 4) -->
                         <tr>
                             <td>007</td>
-                            <td>Peças</td>
-                            <td>Freio a disco</td>
+                            <td rowspan="2">Freios e Cabos</td>
+                            <td>Freio a Disco Hidráulico</td>
                             <td>18</td>
                             <td>Modelo premium</td>
                         </tr>
                         <tr>
                             <td>008</td>
-                            <td>Peças</td>
-                            <td>Corrente</td>
+                            <td>Cabo de Freio</td>
+                            <td>35</td>
+                            <td>Reposição comum</td>
+                        </tr>
+
+                        <!-- Linhas normais -->
+                        <tr>
+                            <td>009</td>
+                            <td>Transmissão</td>
+                            <td>Corrente 21v Shimano</td>
                             <td>27</td>
                             <td>Uso geral</td>
                         </tr>
                         <tr>
-                            <td>009</td>
-                            <td>Acessórios</td>
-                            <td>Lanterna</td>
-                            <td>22</td>
-                            <td>Passeio noturno</td>
-                        </tr>
-                        <tr>
                             <td>010</td>
                             <td>Acessórios</td>
-                            <td>Cadeado</td>
-                            <td>16</td>
-                            <td>Proteção</td>
-                        </tr>
-                        <tr>
-                            <td colspan="2" class="table-secondary"><b>Setor especial</b></td>
-                            <td>Kit revisão</td>
-                            <td>10</td>
-                            <td>Uso da oficina</td>
+                            <td>Garrafa Térmica 600ml</td>
+                            <td>40</td>
+                            <td>Hidratação</td>
                         </tr>
                         <tr>
                             <td>011</td>
-                            <td>Oficina</td>
-                            <td>Lubrificante</td>
-                            <td>14</td>
-                            <td>Manutenção</td>
+                            <td>Acessórios</td>
+                            <td>Cadeado de Segurança</td>
+                            <td>16</td>
+                            <td>Antifurto</td>
                         </tr>
+
+                        <!-- colspan="2" na coluna Código+Categoria (mesclagem de coluna 1) -->
+                        <tr class="table-secondary">
+                            <td colspan="2"><b>Setor de Oficina</b></td>
+                            <td>Kit Revisão Completo</td>
+                            <td>10</td>
+                            <td>Uso da equipe técnica</td>
+                        </tr>
+
                         <tr>
                             <td>012</td>
                             <td>Oficina</td>
-                            <td>Ferramentas</td>
+                            <td>Lubrificante para Corrente</td>
+                            <td>14</td>
+                            <td>Manutenção preventiva</td>
+                        </tr>
+                        <tr>
+                            <td>013</td>
+                            <td>Oficina</td>
+                            <td>Conjunto de Ferramentas</td>
                             <td>9</td>
                             <td>Equipe técnica</td>
                         </tr>
+
+                        <!-- colspan="2" em Quantidade+Observação (mesclagem de coluna 2) e colspan="3" no início (mesclagem de coluna 3) -->
                         <tr class="table-light">
-                            <td colspan="3"><b>Total de itens cadastrados</b></td>
-                            <td colspan="2"><b>297 unidades</b></td>
+                            <td colspan="3"><b>Subtotal — Bicicletas e Peças</b></td>
+                            <td colspan="2"><b>135 unidades</b></td>
+                        </tr>
+
+                        <!-- Linha de total geral: colspan="3" (mesclagem de coluna 4) -->
+                        <tr class="table-dark text-white">
+                            <td colspan="3"><b>TOTAL GERAL DE ESTOQUE</b></td>
+                            <td colspan="2"><b>347 unidades</b></td>
                         </tr>
                     </table>
                 </div>
@@ -192,3 +226,4 @@
         crossorigin="anonymous"></script>
 </body>
 </html>
+    
