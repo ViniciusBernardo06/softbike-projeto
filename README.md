@@ -55,9 +55,9 @@ Em seguida, abra o arquivo `index.html` diretamente no seu navegador, ou use a e
 
 ---
 
-## 👤 Autor
+## 👤 Autores
 
-**Vinícius Bernardo**  
+**Vinícius Bernardo, Sabrina Cardoso e Gabriel Pereira** 
 Curso: Análise e Desenvolvimento de Sistemas (ADS)  
 Disciplina: Desenvolvimento Web  
-GitHub: [@ViniciusBernardo06](https://github.com/ViniciusBernardo06)
+GitHub:(https://github.com/ViniciusBernardo06) (https://github.com/Sabrina-Abreu)
