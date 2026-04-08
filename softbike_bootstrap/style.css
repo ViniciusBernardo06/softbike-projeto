@@ -35,8 +35,11 @@ body {
 
 .card img {
     border-radius: 5px 5px 0px 0px !important;
-    height: 220px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
+    display: block;
+    margin: 0 auto;
 }
 
 .card-text {
